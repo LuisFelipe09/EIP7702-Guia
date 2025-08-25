@@ -1,0 +1,39 @@
+{
+  "name": "eip7702_guia",
+  "version": "1.0.0",
+  "author": "felipe",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "account": "yarn foundry:account",
+    "account:generate": "yarn foundry:generate",
+    "account:import": "yarn foundry:account-import",
+    "account:reveal-pk": "yarn workspace @eip7702/foundry account:reveal-pk",
+    "chain": "yarn foundry:chain",
+    "compile": "yarn foundry:compile",
+    "deploy": "yarn foundry:deploy",
+    "flatten": "yarn foundry:flatten",
+    "fork": "yarn foundry:fork",
+    "format": "yarn next:format && yarn foundry:format",
+    "foundry:account": "yarn workspace @eip7702/foundry account",
+    "foundry:account-import": "yarn workspace @eip7702/foundry account:import",
+    "foundry:chain": "yarn workspace @eip7702/foundry chain",
+    "foundry:clean": "yarn workspace @eip7702/foundry clean",
+    "foundry:compile": "yarn workspace @eip7702/foundry compile",
+    "foundry:deploy": "yarn workspace @eip7702/foundry deploy",
+    "foundry:deploy-verify": "yarn workspace @eip7702/foundry deploy:verify",
+    "foundry:flatten": "yarn workspace @eip7702/foundry flatten",
+    "foundry:fork": "yarn workspace @eip7702/foundry fork",
+    "foundry:format": "yarn workspace @eip7702/foundry format",
+    "foundry:generate": "yarn workspace @eip7702/foundry account:generate",
+    "foundry:lint": "yarn workspace @eip7702/foundry lint",
+    "foundry:test": "yarn workspace @eip7702/foundry test",
+    "foundry:verify": "yarn workspace @eip7702/foundry verify",
+    "generate": "yarn foundry:generate"
+  }
+}
